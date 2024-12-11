@@ -8,10 +8,11 @@ return {
   config = true,
   keys = {
     {
-      '<leader>go',
+      '<leader>og',
       function()
         require('neogit').open { kind = 'split' }
       end,
+      desc = '[O]pen [G]it',
     },
   },
 }
