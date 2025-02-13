@@ -718,6 +718,7 @@ require('lazy').setup({
       formatters_by_ft = {
         lua = { 'stylua' },
         python = { 'black' },
+        haskell = { 'fourmolu' },
         -- Conform can also run multiple formatters sequentially
         -- python = { "isort", "black" },
         --
@@ -988,6 +989,7 @@ require('lazy').setup({
       lazy = '💤 ',
     },
   },
+  rocks = { hererocks = true },
 })
 
 -- The line beneath this is called `modeline`. See `:help modeline`
